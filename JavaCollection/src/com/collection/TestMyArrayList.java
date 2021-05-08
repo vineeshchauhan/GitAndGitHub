@@ -5,6 +5,7 @@ public class TestMyArrayList {
 	public static void main(String[] args) {
 		
 		MyLinkedList list = new MyLinkedList<>();
+		//MyArrayList list = new MyArrayList<>();
 		list.add("A");
 		list.add("B");
 		System.out.println(list.toString());
