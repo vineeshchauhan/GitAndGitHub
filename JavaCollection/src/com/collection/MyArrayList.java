@@ -19,6 +19,8 @@ public class MyArrayList<E> implements List<E>{
 		}
 	}
 	
+	Object a = "1";
+	
 	@Override
 	public boolean add(E e) {
 		ensureCapacity(count+1);
